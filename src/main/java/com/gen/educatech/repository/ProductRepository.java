@@ -1,7 +1,10 @@
-package com.spring.educatech.repository;
+package com.gen.educatech.repository;
 
-import com.spring.educatech.model.Product;
+
+import com.gen.educatech.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ProductRepository extends JpaRepository<Long, Product> {
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> {
 }

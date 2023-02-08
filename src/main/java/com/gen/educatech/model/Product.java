@@ -1,4 +1,4 @@
-package com.spring.educatech.model;
+package com.gen.educatech.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "tb_products")
-public class Product {
+public class  Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
