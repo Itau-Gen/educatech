@@ -1,4 +1,4 @@
-package com.spring.educatech.model;
+package com.gen.educatech.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
