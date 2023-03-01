@@ -19,7 +19,6 @@ public class  Product {
     private String descricao;
 
     @NotNull(message = "O valor não pode ser nulo")
-    @Size(min = 1, max = 40, message = "Digite um valor entre 1 e 40 caracteres.")
     @Column(name = "valor")
     private float valor;
 
