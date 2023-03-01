@@ -1,8 +1,11 @@
 package com.gen.educatech.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+
+import java.util.List;
 
 @Entity
 @Table(name = "tb_categoria_produtos")
@@ -25,6 +28,12 @@ public class Category {
     @Size(min = 5, max = 50, message = "O atributo fornecedor deve conter no mínimo 5 e no máximo 50 caracteres")
     @Column(name = "fornecedor")
     private String fornecedor;
+
+    @OneToMany(mappedBy = "categoriaProduto", cascade = CascadeType.REMOVE)
+    @JsonIgnoreProperties("categoriaProduto")
+    private List<Product> produto;
+
+
 
     public Long getId() {
         return id;
@@ -56,5 +65,13 @@ public class Category {
 
     public void setFornecedor(String fornecedor) {
         this.fornecedor = fornecedor;
+    }
+
+    public List<Product> getProduto() {
+        return produto;
+    }
+
+    public void setProduto(List<Product> produto) {
+        this.produto = produto;
     }
 }
