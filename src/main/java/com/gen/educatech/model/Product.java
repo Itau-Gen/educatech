@@ -1,5 +1,6 @@
 package com.gen.educatech.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -25,6 +26,10 @@ public class  Product {
     @NotNull
     @Column(name = "disponivel")
     private boolean disponivel;
+
+    @ManyToOne
+    @JsonIgnoreProperties("produto")
+    private Category categoriaProduto;
 
     public long getId() {
         return id;
@@ -56,5 +61,13 @@ public class  Product {
 
     public void setDisponivel(boolean disponivel) {
         this.disponivel = disponivel;
+    }
+
+    public Category getCategoriaProduto() {
+        return categoriaProduto;
+    }
+
+    public void setCategoriaProduto(Category categoriaProduto) {
+        this.categoriaProduto = categoriaProduto;
     }
 }
