@@ -15,13 +15,17 @@ public class  Product {
 
     @NotBlank(message = "É necessário descrever o produto!")
     @Size(min = 10, max = 40, message = "Digite entre 10 e 40 caracteres.")
-    private String description;
+    @Column(name = "descricao")
+    private String descricao;
 
     @NotNull(message = "O valor não pode ser nulo")
-    private float value;
+    @Size(min = 1, max = 40, message = "Digite um valor entre 1 e 40 caracteres.")
+    @Column(name = "valor")
+    private float valor;
 
     @NotNull
-    private boolean available;
+    @Column(name = "disponivel")
+    private boolean disponivel;
 
     public long getId() {
         return id;
@@ -31,27 +35,27 @@ public class  Product {
         this.id = id;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
-    public float getValue() {
-        return value;
+    public float getValor() {
+        return valor;
     }
 
-    public void setValue(float value) {
-        this.value = value;
+    public void setValor(float valor) {
+        this.valor = valor;
     }
 
-    public boolean isAvailable() {
-        return available;
+    public boolean isDisponivel() {
+        return disponivel;
     }
 
-    public void setAvailable(boolean available) {
-        this.available = available;
+    public void setDisponivel(boolean disponivel) {
+        this.disponivel = disponivel;
     }
 }
