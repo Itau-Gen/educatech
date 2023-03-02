@@ -1,4 +1,4 @@
-package service;
+package com.gen.educatech.service;
 
 import com.gen.educatech.model.Usuario;
 import com.gen.educatech.model.UsuarioLogin;

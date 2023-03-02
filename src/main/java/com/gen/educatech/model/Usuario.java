@@ -33,21 +33,20 @@ public class Usuario {
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("usuario")
-    private List<Product> postagem;
+    private List<Product> produto;
 
 
-    public Usuario(Long id, String nome, String usuario, String senha, String foto, List<Product> postagem) {
+    public Usuario(Long id, String nome, String usuario, String senha, String foto, List<Product> produto) {
         this.id = id;
         this.nome = nome;
         this.usuario = usuario;
         this.senha = senha;
         this.foto = foto;
-        this.postagem = postagem;
+        this.produto = produto;
     }
 
     public Usuario() {
     }
-
 
     public Long getId() {
         return id;
@@ -89,11 +88,11 @@ public class Usuario {
         this.foto = foto;
     }
 
-    public List<Product> getPostagem() {
-        return postagem;
+    public List<Product> getProduto() {
+        return produto;
     }
 
-    public void setPostagem(List<Product> postagem) {
-        this.postagem = postagem;
+    public void setProduto(List<Product> produto) {
+        this.produto = produto;
     }
 }
