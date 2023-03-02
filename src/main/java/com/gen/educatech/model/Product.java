@@ -1,10 +1,8 @@
 package com.gen.educatech.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.*;
 
 @Entity
 @Table(name = "tb_products")
@@ -30,6 +28,12 @@ public class  Product {
     @ManyToOne
     @JsonIgnoreProperties("produto")
     private Category categoriaProduto;
+
+    @ManyToOne
+    @JsonIgnoreProperties("produto")
+    private Usuario usuario;
+
+
 
     public long getId() {
         return id;
@@ -69,5 +73,13 @@ public class  Product {
 
     public void setCategoriaProduto(Category categoriaProduto) {
         this.categoriaProduto = categoriaProduto;
+    }
+
+    public Usuario getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 }
