@@ -36,5 +36,6 @@ Esse repositório é o desenvolvimento do Projeto Integrador - ODS 4
 <td align="center"><a href="https://github.com/Hemylli"><img style="border-radius: 50%;" src="https://github.com/Hemylli.png" width="100px;" alt="Hemylli Hilário"/><br /><sub><b>Hemylli Hilário</b></sub></a><br/></td>
 <td align="center"><a href="https://github.com/LSantAnnaB"><img style="border-radius: 50%;" src="https://github.com/LSantAnnaB.png" width="100px;" alt="Lucas Sant Anna"/><br /><sub><b>Lucas Sant Anna</b></sub></a><br/></td>
 <td align="center"><a href="https://github.com/leodemorais"><img style="border-radius: 50%;" src="https://github.com/leodemorais.png" width="100px;" alt="Leonardo Morais"/><br /><sub><b>Leonardo Morais</b></sub></a><br/></td>
-<td align="center"><a href="https://github.com/CarlosAlbertoGomes"><img style="border-radius: 50%;" src="https://github.com/CarlosAlbertoGomes.png" width="100px;" alt="Carlos Gomes"/><br /><sub><b>Carlos Gomes</b></sub></a><br/></td>  
+<td align="center"><a href="https://github.com/CarlosAlbertoGomes"><img style="border-radius: 50%;" src="https://github.com/CarlosAlbertoGomes.png" width="100px;" alt="Carlos Gomes"/><br /><sub><b>Carlos Gomes</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/LevynaGA"><img style="border-radius: 50%;" src="https://github.com/LevynaGA.png" width="100px;" alt="Levyna Guerra"/><br /><sub><b>Levyna Guerra</b></sub></a><br/></td>  
 </table>
