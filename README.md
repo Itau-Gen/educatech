@@ -1,10 +1,10 @@
 <p align="center">
     <a href="https://github.com/wbeize">
-        <img alt="Badge em Execução" src="https://img.shields.io/badge/status%20-em%20execução-1abc9c.svg" />
+        <img alt="Badge Status" src="https://img.shields.io/badge/status%20-projeto%20concluído (backend)-1abc9c.svg" />
     </a>
     </p>
      <p align="center">
-     <img width="440px" src="https://user-images.githubusercontent.com/114694450/223731340-1c581e0e-9175-42ea-9003-1c1442727730.png" align="center" alt="educatech" />
+     <img width="480px" src="https://user-images.githubusercontent.com/114694450/223731340-1c581e0e-9175-42ea-9003-1c1442727730.png" align="center" alt="educatech" />
     <p align="center">
       <a href="https://github.com/itau-gen">
         <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
@@ -26,18 +26,20 @@
 
 
 <h4 align="center">
-Esse repositório é o desenvolvimento do Projeto Integrador do Boot Itaú-Gen
+Esse repositório é o desenvolvimento do Projeto Integrador do <a target="_blank" href="https://github.com/wbeize/itau-gen">BootCamp Itaú-Gen</a>
 </h4>
 
 <br><br>
 Os Objetivos de Desenvolvimento Sustentável (ODS) são um conjunto de 17 metas pensadas em 2015 por diversos líderes mundiais e estabelecidas pela Organização das Nações Unidas (ONU) para serem implementadas até 2030 em todos os países do mundo. Esses objetivos buscam promover melhorias econômicas, culturais e espaciais de forma sustentável e assim alcançar e concretizar os direitos humanos. Esses direitos são responsáveis por assegurar que cada indivíduo tenha acesso à qualidade de vida e seja livre e, por isso, a partir dos objetivos de desenvolvimento sustentável, globalmente estão sendo propostas mudanças no que diz respeito à igualdade de gênero, redução das desigualdades, manutenção do meio ambiente, entre outros.
-<br><br><br>
+<br><br>
 
 <td width="85px">
-  <img src="https://www.ipea.gov.br/ods/img/ods4.gif" height="85" align="left"/>
+  <img src="http://www4.planalto.gov.br/ods/objetivos-de-desenvolvimento-sustentavel/educacao-de-qualidade/4.png/@@images/67666253-e0ca-40e7-ad2f-6049f03f8f93.png" height="130" align="left"/>
     <td>
       <h6 align="center">
           <br>
+          "4.3 Até 2030, assegurar a igualdade de acesso para todos os homens e mulheres à educação técnica, profissional e superior de qualidade, a preços acessíveis, incluindo universidade."
+          <br><br>
           "4.4 Até 2030, aumentar substancialmente o número de jovens e adultos que tenham habilidades relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo."
         </h6>
 </tr>
