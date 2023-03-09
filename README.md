@@ -108,7 +108,7 @@ Como uma das soluções possíveis ao <a target="_blank" href="https://www.ipea.
                         <p align="center"><td>Task 4</td></p>
                             <td>Documentação com Swagger e Deploy no Render.</td>
                             <td>08/03/2023 à 09/03/2023</td>
-                            <td><a href="">Documentação <br> <a href="https://educatech.onrender.com/swagger-ui/index.html">Deploy</td>
+                            <td><a href="https://educatech.onrender.com/swagger-ui/index.html">Visualizar</td>
                      </tr>                
               </tbody>
        </table>
