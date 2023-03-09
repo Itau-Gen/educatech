@@ -33,13 +33,43 @@ Esse repositório é o desenvolvimento do Projeto Integrador do Boot Itaú-Gen
 Os Objetivos de Desenvolvimento Sustentável (ODS) são um conjunto de 17 metas pensadas em 2015 por diversos líderes mundiais e estabelecidas pela Organização das Nações Unidas (ONU) para serem implementadas até 2030 em todos os países do mundo. Esses objetivos buscam promover melhorias econômicas, culturais e espaciais de forma sustentável e assim alcançar e concretizar os direitos humanos. Esses direitos são responsáveis por assegurar que cada indivíduo tenha acesso à qualidade de vida e seja livre e, por isso, a partir dos objetivos de desenvolvimento sustentável, globalmente estão sendo propostas mudanças no que diz respeito à igualdade de gênero, redução das desigualdades, manutenção do meio ambiente, entre outros.
 <br><br><br>
 
-<td width="125px">
-  <img src="https://www.ipea.gov.br/ods/img/ods4.gif" height="125" align="left"/>
+<td width="85px">
+  <img src="https://www.ipea.gov.br/ods/img/ods4.gif" height="85" align="left"/>
     <td>
-      <h4 align="center">
-      Considerando que o <a target="_blank" href="https://www.ipea.gov.br/ods/ods4.html">Objetivo 4</a> estabelece que uma educação de qualidade, inclusiva e equitativa seja assegurada a todos os indivíduos e que oportunidades de aprendizagem sejam promovidas ao longo da vida para todas as pessoas.
-        
+      <h6 align="center">
+          <br>
+          "4.4 Até 2030, aumentar substancialmente o número de jovens e adultos que tenham habilidades relevantes, inclusive competências técnicas e profissionais, para emprego, trabalho decente e empreendedorismo."
+        </h6>
 </tr>
+<br><br><br>
+
+<h7 align="right">
+Como uma das soluções possíveis ao <a target="_blank" href="https://www.ipea.gov.br/ods/ods4.html">Objetivo 4</a>, que estabelece que uma educação de qualidade, inclusiva e equitativa seja assegurada a todos os indivíduos e que oportunidades de aprendizagem sejam promovidas ao longo da vida para todas as pessoas, idealizamos o EducaTech. Nossa organização tem como objetivo de contribuir para a disseminação da educação inclusiva, acessível e de qualidade, a intenção é intermediar, por meio de uma aplicação web acessível a partir de celulares, computadores e tablets, o contato entre o público interessado em adquirir uma formação profissional na área de T.I. e escolas/cursos que disponinibilizem tal conteúdo.
+    </td>
+    </h7>
+        <h3 align="center">
+            O EDUCATECH ACREDITA NA EDUCAÇÃO!
+    </h3>
+     <p align="center">
+     <img width="400px" src="https://user-images.githubusercontent.com/114694450/224081896-64d41e02-fc3c-42dc-8e7a-29f886112ea7.png" align="center" alt="educatech" />
+    </p>
+    </td>
+</tr>
+
+<br><br>
+## Ferramentas e gerenciamento do projeto:
+
+* Para desenvolvimento em Java e Spring Boot, utilizamos IDEs como IntelliJ e Spring Tool Suite/STS para criar APIs Rest e CRUD, além de frameworks como Spring Boot e Maven para facilitar a configuração e criação de projetos.
+
+* Para controle de versionamento, utilizamos o Git para gerenciar o código da nossa API, permitindo trabalho em equipe de forma colaborativa e segura, com criação de branches para o desenvolvimento de novas funcionalidades e correção de bugs.
+
+* Para banco de dados, usamos o MySql e a especificação JPA para a camada de persistência, permitindo integração fácil e portabilidade do código entre diferentes bancos de dados relacionais, além de mapeamento de objetos Java para tabelas no banco de dados.
+
+* Para testes unitários e de APIs, utilizamos o JUnit e o Insomnia, permitindo a verificação do funcionamento de cada método isoladamente e envio de requisições HTTP para visualização simplificada das respostas.
+
+* Para documentação e teste de APIs REST, utilizamos o Swagger, permitindo definição de estrutura de requisições e respostas, além de exemplos de utilização, garantindo qualidade e padronização nos projetos.
+
+* Para deploy de nossas aplicações, utilizamos o Render, plataforma que permite implementação gratuita e oferece diversas ferramentas de monitoramento e gerenciamento, criando e gerenciando ambientes de desenvolvimento e produção de forma eficiente.
 
 <br><br><br><br>
 <section id="issues">
